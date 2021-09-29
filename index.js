@@ -125,4 +125,4 @@ console.log("  ")
     for ( var i = 7 - 1 ; i >= 1; i--){
             number = number * i
     }
-        console.log(number);git 
+        console.log(number)
