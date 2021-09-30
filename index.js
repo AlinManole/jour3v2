@@ -1,8 +1,9 @@
 // 1 - Nombre pairs 
 
 var total = 0
+var start = 11
 
-for ( var i = 11 ; i < 47 ; i++ ) {
+for ( var i = start ; i < 47 ; i++ ) {
     if ( i % 2 === 0 ) { 
         console.log(i);
         total = total + i;
@@ -13,11 +14,12 @@ console.log(total);
 
 
 // 2 - Nombre impairs
-
+var start = 109
+var end = 588
 var total = 0
 
-for ( var i = 109 ; i < 588 ; i++ ) {
-    if ( i % 2 === 1 ) {
+for ( var i = start ; i < end ; i++ ) {
+    if ( i % 2 === 1 ) // alternative - i % 2 !== 0 {
         console.log(i);
         total = total + i;
     }
@@ -187,5 +189,6 @@ console.log("  ")
             }
     }
     console.log(totalSum)
-
+    console.log("")
+    console.log("")
     // 11 - 
