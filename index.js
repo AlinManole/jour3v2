@@ -120,9 +120,72 @@ console.log("  ")
 
     // 6 - Factorielle v1
 
-        var number = 7
+    var number = 7
     
     for ( var i = 7 - 1 ; i >= 1; i--){
             number = number * i
     }
-        console.log(number)
+    console.log(i + "! = " + number)
+
+
+    console.log("")
+    console.log("")
+    // 7 - Factorielle v2
+
+
+    var number2 = 1
+
+    for (var i = 0; i <= 8; i++) {
+        number2 = 1;
+        for (var j = 1; j <= i; j++) {
+            number2 = number2 * j
+        }
+        console.log(i + "! = " + number2)
+    }
+    console.log("")
+    // 8 - Somme des carrés
+
+        total = 0
+
+    for ( var i = 5; i <= 10 ; i++) {
+        total = total + i * i;      
+    
+    }
+     console.log(total);
+
+
+    console.log("")
+    // 9 - Comptons
+
+    var divide = 7
+    var total2 = 0
+
+    for ( var i = 100 ; i <= 1000 ; i++){
+        
+        if (i % divide === 0) {
+            total2 = total2 + 1 //total2.push(i)
+            
+        }
+    }
+    console.log(total2) //console.log(total2.lenght)
+        
+
+    console.log("")
+
+
+    // 10 - Chanceux
+    
+    var totalSum = 0
+    var total3
+
+
+    for( var i = 0 ; i <= 20 ; i++) {
+        total3 = Math.floor(6 * Math.random() + 1)
+            if ( total3 >= 5) {
+                console.log(total3)
+                totalSum = totalSum + total3
+            }
+    }
+    console.log(totalSum)
+
+    // 11 - 
